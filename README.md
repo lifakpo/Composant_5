@@ -1,3 +1,3 @@
 # Groupe_E 
-Composant ‡ spÈcifier VÈrificateur de bloc
-Composant ‡ dÈvelopper Interface fichier
+Composant √† sp√©cifier V√©rificateur de bloc (validation d'un bloc et v√©rification d'une transaction)<br/>
+Composant √† d√©velopper Interface fichier
