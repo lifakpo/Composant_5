@@ -1,3 +1,4 @@
+#include  "Bloc.h"
 // The following ifdef block is the standard way of creating macros which make exporting 
 // from a DLL simpler. All files within this DLL are compiled with the COMPOSANT5_EXPORTS
 // symbol defined on the command line. This symbol should not be defined on any project
@@ -15,6 +16,8 @@ class COMPOSANT5_API CComposant5 {
 public:
 	CComposant5(void);
 	// TODO: add your methods here.
+	bool verify_bloc(Bloc b);
+	bool verify_transaction(TXI tx);
 };
 
 extern COMPOSANT5_API int nComposant5;
