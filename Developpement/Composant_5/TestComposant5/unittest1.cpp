@@ -25,6 +25,7 @@ namespace TestComposant5
 			// TODO: Your test code here
 			CComposant5 c = CComposant5();
 			TXI tx = TXI();
+			fnComposant5();
 			Assert::IsFalse(c.verify_transaction(tx));
 		}
 

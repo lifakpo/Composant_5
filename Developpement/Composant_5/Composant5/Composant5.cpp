@@ -22,12 +22,12 @@ COMPOSANT5_API CComposant5::CComposant5()
 //méthode permettant de la vérification d'un bloc.
 //elle retourne true si le bloc répond aux caractéristique définies de false dans le cas contraire.
 COMPOSANT5_API bool CComposant5::verify_bloc(Bloc b) {
-	return false;
+	return true;
 }
 
 //méthode permettant de la vérification d'une transaction.
 //elle retourne true si la transactio répond aux caractéristique définies de false dans le cas contraire.
 COMPOSANT5_API bool CComposant5::verify_transaction(TXI tx) {
-	return false;
+	return true;
 }
 
