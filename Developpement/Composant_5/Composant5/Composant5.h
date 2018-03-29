@@ -1,3 +1,7 @@
+#pragma once
+#ifndef COMPOSANT1_H
+#define COMPOSANT1_H
+
 #include  "Bloc.h"
 // The following ifdef block is the standard way of creating macros which make exporting 
 // from a DLL simpler. All files within this DLL are compiled with the COMPOSANT5_EXPORTS
@@ -14,12 +18,10 @@
 // This class is exported from the Composant5.dll
 class COMPOSANT5_API CComposant5 {
 public:
-	CComposant5(void);
 	// TODO: add your methods here.
-	bool verify_bloc(Bloc b);
+	CComposant5();
+	bool verify_bloc(Bloc b, char hash[HASH_SIZE], int nonce);
 	bool verify_transaction(TXI tx);
 };
 
-extern COMPOSANT5_API int nComposant5;
-
-COMPOSANT5_API int fnComposant5(void);
+#endif

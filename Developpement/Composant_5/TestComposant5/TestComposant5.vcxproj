@@ -152,19 +152,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="resource1.h" />
-    <ClInclude Include="TestComposant.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="unittest1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Composant5\Composant5.vcxproj">
       <Project>{c380b759-09d0-4d66-975c-a9696c98c344}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="TestComposant5.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -17,15 +17,17 @@ namespace TestComposant5
 			// TODO: Your test code here
 			Bloc b;
 			CComposant5 c;
-			Assert::IsFalse(c.verify_bloc(b));
+			std::string hashBlocInit = "dfgsdfgdfsgdfsgsdfgshykjukjh";
+			char hashBloc[HASH_SIZE];
+			strncpy_s(hashBloc, HASH_SIZE, hashBlocInit.c_str(), HASH_SIZE);
+			Assert::IsFalse(c.verify_bloc(b,hashBloc,0));
 		}
 
 		TEST_METHOD(TestVerifyTransaction)
 		{
 			// TODO: Your test code here
-			CComposant5 c = CComposant5();
+			CComposant5 c;
 			TXI tx = TXI();
-			fnComposant5();
 			Assert::IsFalse(c.verify_transaction(tx));
 		}
 
