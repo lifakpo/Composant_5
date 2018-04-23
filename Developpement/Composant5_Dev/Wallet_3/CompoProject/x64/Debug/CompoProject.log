@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+  Wallet.cpp
+c:\users\administrator\desktop\composant5_dev\composant1\fileinterface.h(21): warning C4251: 'FileInterface::fichier': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FileInterface'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(33): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(46): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(56): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(67): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(99): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(109): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(118): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(171): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(176): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(184): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\composant5_dev\wallet_3\compoproject\wallet.cpp(189): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  CompoProject.cpp
+c:\users\administrator\desktop\composant5_dev\composant1\fileinterface.h(21): warning C4251: 'FileInterface::fichier': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FileInterface'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  Generating Code...
+  dllmain.cpp
+  CompoProject.vcxproj -> C:\Users\Administrator\Desktop\Composant5_Dev\x64\Debug\CompoProject.exe
+  CompoProject.vcxproj -> C:\Users\Administrator\Desktop\Composant5_Dev\x64\Debug\CompoProject.pdb (Full PDB)

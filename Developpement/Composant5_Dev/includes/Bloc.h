@@ -10,7 +10,7 @@
 // projet blockchain M2IF 2018
 //
 
-#define KEY_SIZE 64 // taille en byte des cle (publique, privee) a valider avec les groupes specifiant et developpant la signature
+#define KEY_SIZE 128 // taille en byte des cle (publique, privee) a valider avec les groupes specifiant et developpant la signature
 #define HASH_SIZE 64  // taille du hash, 256 bits chaine hexadecimale
 #define SIGNATURE_SIZE 64
 using namespace std;
